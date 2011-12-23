@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  designation: MyString
+  prix: 9.99
+  qtestock: 1
+  dateachat: 2011-12-23 09:24:11
+
+two:
+  designation: MyString
+  prix: 9.99
+  qtestock: 1
+  dateachat: 2011-12-23 09:24:11

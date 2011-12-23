@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Designation:</b>
+  <%= @article.designation %>
+</p>
+
+<p>
+  <b>Prix:</b>
+  <%= @article.prix %>
+</p>
+
+<p>
+  <b>Qtestock:</b>
+  <%= @article.qtestock %>
+</p>
+
+<p>
+  <b>Dateachat:</b>
+  <%= @article.dateachat %>
+</p>
+
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
