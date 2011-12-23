@@ -1,4 +1,8 @@
 Magazin::Application.routes.draw do
+  get "pages/accueil"
+
+  get "pages/contacts"
+
   resources :articles
 
   # The priority is based upon order of creation:
